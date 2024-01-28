@@ -1,2 +1,36 @@
 
 /* Your CSS Code here. */
+h1{
+	text-align:center;
+	color:#224d6e;
+}
+nav>div{
+	display:flex;
+	justify-content:space-around;
+	width:100;
+	background-color:#224d6e;
+	color:white;
+	padding:2%;
+}
+nav>div>div{
+	display:flex;
+	width:25%;
+	padding:1%;
+	/* flex-wrap:wrap; */
+	justify-content:space-between;
+}
+#sec{
+	display:flex;
+	margin-top:30px;
+	align-items:center;
+	justify-content:space-around;
+}
+#sec>p{
+	width:45%;
+}
+h3{
+	color:#503425;
+}
+li{
+	color:#a3693f;
+}
